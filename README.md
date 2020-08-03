@@ -1,5 +1,5 @@
 # BAEKJOON
 
 <details markdown="1">
-<summary>Level 01</summary>
+<summary>Level_01</summary>
 </details>
