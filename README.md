@@ -22,6 +22,9 @@ BAEKJOON
 <summary>Level_02</summary>
 
  1. [두 수 비교하기](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1330.java)
+ 2. [시험 성적](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/9498.java)
+ 3. [윤년](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/2753.java)
+ 3. [사분면](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/14681.java)
  
  
 </details>
