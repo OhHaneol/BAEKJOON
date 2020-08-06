@@ -12,7 +12,7 @@ BAEKJOON
  6. [A-B](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/10001.java)
  7. [A/B](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1008.java)
  8. [사칙연산](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/10869.java)
- 9. [나머지](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/10430.java)
+ 9. [나머지](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/10430.java)<br>
  10.[곱셈](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/2588.java)
  
  
