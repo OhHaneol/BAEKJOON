@@ -11,6 +11,7 @@ BAEKJOON
  5. [A+B](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/10000.java)
  6. [A-B](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/10001.java)
  7. [A/B](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/1008.java)
+ 8. [AxB](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/10998.java)
  8. [사칙연산](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/10869.java)
  9. [나머지](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/10430.java)
  10. [곱셈](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/1%EB%8B%A8%EA%B3%84/2588.java)
@@ -25,7 +26,7 @@ BAEKJOON
  2. [시험 성적](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/2%EB%8B%A8%EA%B3%84/9498.java)
  3. [윤년](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/2%EB%8B%A8%EA%B3%84/2753.java)
  4. [사분면](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/2%EB%8B%A8%EA%B3%84/14681.java)
- 5. []()
+ 5. [알람시계](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/2%EB%8B%A8%EA%B3%84/2884.java)
  
  
 </details>
