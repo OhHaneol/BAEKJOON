@@ -37,7 +37,7 @@ BAEKJOON
  1. [구구단](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84/2739.java)
  2. [A+B를 여러 번 출력](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84/10950.java)
  2. [1부터 n까지의 합](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84/8393.java)
- 2. [빠른 A+B(Buffered)]()
+ 2. [빠른 A+B(Buffered)](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84/15552.java)
  2. [1부터 N까지 출력](https://github.com/OhHaneol/BAEKJOON/tree/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84)
  2. [N부터 1까지 출력](https://github.com/OhHaneol/BAEKJOON/tree/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84)
  2. [예쁜 A+B](https://github.com/OhHaneol/BAEKJOON/tree/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/3%EB%8B%A8%EA%B3%84)
