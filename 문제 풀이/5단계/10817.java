@@ -13,17 +13,19 @@ public class Main {
             num.add(Integer.parseInt(tokens[i]));
         }
         
-        for(int i=0;i<num.length;i++) {
-            for(int j=0;j<num.length-i;j++) {
-                if(num[i]<num[i+1]) {
-                    int temp = num[i];
-                    num[i]=num[i+1];
-                    num[i+1]=temp;
+        //ArrayList의 경우 size() 메소드 사용
+        //ArrayList의 경우 get() 메소드를 사용하여 배열 접근..?
+        for(int i=0;i<num.size();i++) {
+            for(int j=0;j<num.size()-i;j++) {
+                if(num.get(i)<num.get(i+1)) {
+                    int temp = num.get(i);
+                    num.get(i)=num.get(i+1);
+                    num.get(i+1)=temp;
                 }
             }
         }
         
-        System.out.print(num[1]);
+        System.out.print(num.get(1));
     }
 }
-//에러 고치는 중==========================================
+====에러 고치는 중,,,,
