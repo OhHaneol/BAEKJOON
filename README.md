@@ -64,9 +64,9 @@ BAEKJOON
 
  1. [평균 구하기](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/5%EB%8B%A8%EA%B3%84/10039.java)
  1. [가장 싼 세트메뉴](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/5%EB%8B%A8%EA%B3%84/5543.java)
- 1. [두 번째로 큰 수]()
- 1. []()
- 1. []()
- 1. []()
+ 1. [두 번째로 작은 수](https://github.com/OhHaneol/BAEKJOON/commit/f14e36e867184c323d2b800f9b4e314bfe1412fd)
+ 1. [별찍기_1](https://github.com/OhHaneol/BAEKJOON/blob/master/%EB%AC%B8%EC%A0%9C%20%ED%92%80%EC%9D%B4/5%EB%8B%A8%EA%B3%84/2523.java)
+ 1. [별찍기_2]()
+ 1. [별찍기_3]()
  
 </details>
