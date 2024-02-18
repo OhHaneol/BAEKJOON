@@ -2,21 +2,15 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = new int[10];
         Scanner sc = new Scanner(System.in);
+        HashSet<Integer> h = new HashSet<Integer>();
         
         for(int i = 0; i < 10; i++) {
-            arr[i] = sc.nextInt() % 42;
+            h.add(sc.nextInt() % 42);
         }
         
-        Arrays.sort(arr);
+        sc.close();
         
-        int cnt = 1;
-        
-        for(int i = 1; i < 10; i++) {
-            if(arr[i - 1] != arr[i]) cnt++;
-        }
-        
-        System.out.println(cnt);
+        System.out.println(h.size());
     }
 }
