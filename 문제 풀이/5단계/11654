@@ -1,0 +1,8 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] arge) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println((int)sc.nextLine().charAt(0));
+    }
+}
