@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
+        String[] numbers = s.split(" ");
+        String biggerN = "";
+
+        for(int i = 2; i >= 0; i--) {
+            int n1 = (int)numbers[0].charAt(i);
+            int n2 = (int)numbers[1].charAt(i);
+            if(n1 > n2) {
+                biggerN = numbers[0];
+                break;
+            }else if(n1 == n2) {
+                continue;
+            } else {
+                biggerN = numbers[1];
+                break;
+            }
+        }
+
+        int bigN = 0;
+        for(int i = 0; i < 3; i++) {
+            bigN += (biggerN.charAt(i) - '0') * Math.pow(10, i);
+        }
+
+        System.out.println(bigN);
+        
+    }
+}
