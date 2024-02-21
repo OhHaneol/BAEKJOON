@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+        String s = br.readLine();
+        String[] arr = s.split(" ");
+        int cnt = arr.length;
+        
+        for(String str : arr) {
+            if(str.isEmpty()) cnt--;
+        }
+        
+        System.out.println(cnt);
+    }
+}
