@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int cntMax = 0;   // max 의 개수
+        int cntCompare = 0;   // 비교군 개수
+        boolean isMany = false;
+        
+        String s = sc.next().toUpperCase();
+        char[] chArr = s.toCharArray();
+        Arrays.sort(chArr);
+        s = new String(chArr);
+        
+        char maxAlp = s.charAt(0);
+
+        for(int i = 0; i < s.length(); i++) {
+            int startIdx = i;
+            int lastIdx = s.lastIndexOf(Character.toString(s.charAt(i)));
+            cntCompare = lastIdx - startIdx + 1;
+
+            if(cntMax == cntCompare) {
+                isMany = true;
+            } else if(cntMax < cntCompare) {
+                isMany = false;
+                maxAlp = s.charAt(i);
+                cntMax = Math.max(cntMax, cntCompare);
+            }
+
+            i = lastIdx;
+        }
+
+        if(isMany) System.out.println("?");
+        else System.out.println(maxAlp);
+        
+    }
+}
