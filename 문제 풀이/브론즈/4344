@@ -1,0 +1,34 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int caseNum = Integer.parseInt(br.readLine());
+
+        for (int i = 0; i < caseNum; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            int studentNum = Integer.parseInt(st.nextToken());
+            int sum = 0;
+            int[] scores = new int[studentNum];
+            for (int j = 0; j < studentNum; j++) {
+                scores[j] = Integer.parseInt(st.nextToken());
+                sum += scores[j];
+            }
+            // 평균 점수
+            int avg = sum / studentNum;
+            // 평균을 넘는 학생의 수
+            int aboveStd = 0;
+            for (int j = 0; j < studentNum; j++) {
+                if(scores[j] > avg) aboveStd++;
+            }
+            double aboveAvgRatio = ((double)aboveStd / studentNum) * 100;   // double 캐스팅은 하나의 변수 앞에서! 계산 후의 값을 캐스팅하는 게 X
+
+            String result = String.format("%.3f", aboveAvgRatio);
+            System.out.println(result + "%");
+        }
+    }
+}
