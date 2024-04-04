@@ -1,0 +1,39 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+public class Main {
+//    public static double solution(int[] score) {
+//
+//    }
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        // 배열 정렬
+//        int[] nums = new int[3];
+//        for (int i = 0; i < 3; i++) {
+//            nums[i] = Integer.parseInt(st.nextToken());
+//        }
+//        Arrays.sort(nums);
+//        System.out.println(nums[1]);
+
+        // 오름차순 정렬 직접 구현
+        int[] nums = {Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken())};
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] > nums[j]) {
+                    int tmp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = tmp;
+                }
+            }
+        }
+        System.out.println(nums[1]);
+
+    }
+}
