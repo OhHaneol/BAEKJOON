@@ -1,7 +1,6 @@
 BAEKJOON
 ========
 
-`네트워크`
 
 <details markdown="1">
 <summary>Level_01</summary>
