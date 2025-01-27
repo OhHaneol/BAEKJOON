@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main {
+public class Main {
     static StringBuilder sb = new StringBuilder();
     static int n, m;
     static boolean[] visit;
