@@ -3,25 +3,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class solution {
+class Main {
     static StringBuilder sb = new StringBuilder();
     static int n, m;
     static boolean[] visit;
     static int[] arr;
-
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-
-        visit = new boolean[n];
-        arr = new int[m];
-        dfs(0);
-        System.out.println(sb);
-    }
-
+    
     private static void dfs(int depth) {
         if (depth == m) {
             for (int val : arr) {
@@ -39,5 +26,17 @@ public class solution {
                 visit[i] = false;
            }
         }
+    }
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
+
+        visit = new boolean[n];
+        arr = new int[m];
+        dfs(0);
+        System.out.println(sb);
     }
 }
